@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/johann-david-wyss/the-swiss-family-robinson/mary-jane-godwin_william-godwin</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/johann-david-wyss/the-swiss-family-robinson/mary-jane-godwin_william-godwin/j-c-russell</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
@@ -30,6 +30,7 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Swiss Family Robinson</dc:title>
 		<meta property="file-as" refines="#title">Swiss Family Robinson, The</meta>
+		<meta property="dcterms:alternative" refines="#title">The Family Robinson Crusoe, or, Journal of a Father Shipwrecked, with his Wife and Children, on an Uninhabited Island</meta>
 		<dc:subject id="subject-1">Islands -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Survival -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Family life -- Fiction</dc:subject>
@@ -39,57 +40,61 @@
 		<meta property="term" refines="#subject-2">sh2010114096</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Children’s</meta>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">A Swiss family is shipwrecked and cast away on a remote desert island in the East Indies.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;The adventures of a Swiss family of immigrants: a pastor, his wife, and their four sons that are shipwrecked in the East Indies en route to Australia. Cast away on a remote desert island with only the supplies and animals they can salvage from their ship they must work out how to survive without society.&lt;/p&gt;
+			&lt;p&gt;Published by Johann David Wyss in 1812 it has been translated, abridged and altered many times; as well as being adapted for TV, and as a Walt Disney live action film. Inspired by &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/daniel-defoe/the-life-and-adventures-of-robinson-crusoe"&gt;Robinson Crusoe&lt;/a&gt;&lt;/i&gt; but wanting a story his own children could learn from, Wyss’ book became a favourite of the castaway genre, with a sequel eventually being written by &lt;a href="https://standardebooks.org/ebooks/jules-verne"&gt;Jules Verne&lt;/a&gt; and published in 1900 as &lt;i&gt;The Castways of the Flag&lt;/i&gt;.&lt;/p&gt;
+			&lt;p&gt;The most faithful English translation to the original is generally considered to be the version translated by William and Mary Jane Godwin, published in two books as &lt;i&gt;The Family Robinson Crusoe, or, Journal of a Father Shipwrecked, with his Wife and Children, on an Uninhabited Island&lt;/i&gt;, and presented here as a single volume.&lt;/p&gt;
+			&lt;p/&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/72813</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/family-robinson-crusoe-v1/</dc:source>
+		<dc:source>https://archive.org/details/family-robinson-crusoe-v2/</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Swiss_Family_Robinson</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/johann-david-wyss_the-swiss-family-robinson_mary-jane-godwin_william-godwin</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/johann-david-wyss_the-swiss-family-robinson_mary-jane-godwin_william-godwin_j-c-russell</meta>
 		<dc:creator id="author">Johann David Wyss</dc:creator>
 		<meta property="file-as" refines="#author">Wyss, Johann David</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Johann_David_Wyss</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/n96055186</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aft</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="translator-1">Mary Jane Godwin</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Godwin, Mary Jane</meta>
-		<meta property="se:name.person.full-name" refines="#translator-1">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-1">https://en.wikipedia.org/wiki/Mary_Jane_Godwin</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-1">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/nr92039409</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-2">William Godwin</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Godwin, William</meta>
-		<meta property="se:name.person.full-name" refines="#translator-2">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">https://en.wikipedia.org/wiki/William_Godwin</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/n80024468</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Harry Rountree</dc:contributor>
+		<meta property="file-as" refines="#artist">Rountree, Harry</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Harry_Rountree</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n87893329</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
+		<dc:contributor id="illustrator">J. C. Russell</dc:contributor>
+		<meta property="file-as" refines="#illustrator">Russell, J. C.</meta>
+		<meta property="se:url.authority.nacoaf" refines="#illustrator">http://id.loc.gov/authorities/names/no2017118965</meta>
+		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
+		<dc:contributor id="transcriber-1">Lauren Pritchard</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Pritchard, Lauren</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_2_URL</meta>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#transcriber-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">D. Baark</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Baark, D.</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
