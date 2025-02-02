@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-2-6.xhtml">
+		<ignore>
+			<code>t-002</code>
+			<reason>Quoting a fictional sermon name</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2-19.xhtml">
+		<ignore>
+			<code>t-002</code>
+			<reason>Scare quotes</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
