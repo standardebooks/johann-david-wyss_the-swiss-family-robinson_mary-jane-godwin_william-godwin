@@ -44,15 +44,15 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A Swiss family is shipwrecked and cast away on a remote desert island in the East Indies.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;The adventures of a Swiss family of immigrants: a pastor, his wife, and their four sons that are shipwrecked in the East Indies en route to Australia. Cast away on a remote desert island with only the supplies and animals they can salvage from their ship they must work out how to survive without society.&lt;/p&gt;
-			&lt;p&gt;Published by Johann David Wyss in 1812 it has been translated, abridged and altered many times; as well as being adapted for TV, and as a Walt Disney live action film. Inspired by &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/daniel-defoe/the-life-and-adventures-of-robinson-crusoe"&gt;Robinson Crusoe&lt;/a&gt;&lt;/i&gt; but wanting a story his own children could learn from, Wyss’ book became a favourite of the castaway genre, with a sequel eventually being written by &lt;a href="https://standardebooks.org/ebooks/jules-verne"&gt;Jules Verne&lt;/a&gt; and published in 1900 as &lt;i&gt;The Castways of the Flag&lt;/i&gt;.&lt;/p&gt;
+			&lt;p&gt;A Swiss family of immigrants: a pastor, his wife, and their four sons are shipwrecked in the East Indies en route to Australia and abandoned by the rest of the crew. Cast away on a remote desert island with only the supplies and animals they can salvage from their ship they must work out how to survive without society and learn to make the best of all that providence provides.&lt;/p&gt;
+			&lt;p&gt;Published by Johann David Wyss in 1812 it has been translated, abridged and altered many times; as well as being adapted for TV, and as a Walt Disney live action film. Inspired by &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/daniel-defoe/the-life-and-adventures-of-robinson-crusoe"&gt;Robinson Crusoe&lt;/a&gt;&lt;/i&gt; but wanting a story his own children could learn from, Wyss’s book became a favourite of the castaway genre, with a sequel eventually being written by &lt;a href="https://standardebooks.org/ebooks/jules-verne"&gt;Jules Verne&lt;/a&gt; and published in 1900 as &lt;i&gt;The Castways of the Flag&lt;/i&gt;.&lt;/p&gt;
 			&lt;p&gt;The most faithful English translation to the original is generally considered to be the version translated by William and Mary Jane Godwin, published in two books as &lt;i&gt;The Family Robinson Crusoe, or, Journal of a Father Shipwrecked, with his Wife and Children, on an Uninhabited Island&lt;/i&gt;, and presented here as a single volume.&lt;/p&gt;
 			&lt;p/&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/72813</dc:source>
-		<dc:source>https://archive.org/details/family-robinson-crusoe-v1/</dc:source>
-		<dc:source>https://archive.org/details/family-robinson-crusoe-v2/</dc:source>
+		<dc:source>https://archive.org/details/family-robinson-crusoe-v1</dc:source>
+		<dc:source>https://archive.org/details/family-robinson-crusoe-v2</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Swiss_Family_Robinson</meta>
