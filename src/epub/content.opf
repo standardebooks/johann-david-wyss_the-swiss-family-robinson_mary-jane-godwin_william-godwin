@@ -59,7 +59,7 @@
 		<dc:creator id="author">Johann David Wyss</dc:creator>
 		<meta property="file-as" refines="#author">Wyss, Johann David</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Johann_David_Wyss</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/n96055186</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n96055186</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
@@ -79,7 +79,7 @@
 		<dc:contributor id="translator-2">William Godwin</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Godwin, William</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">https://en.wikipedia.org/wiki/William_Godwin</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/n80024468</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/n80024468</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
 		<meta property="display-seq" refines="#translator-2">2</meta>
 		<dc:contributor id="illustrator">J. C. Russell</dc:contributor>
