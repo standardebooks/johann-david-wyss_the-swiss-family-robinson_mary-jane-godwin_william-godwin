@@ -69,7 +69,7 @@
 		<meta property="se:url.authority.nacoaf" refines="#editor-1">http://id.loc.gov/authorities/names/n81097789</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">wpr</meta>
-		<meta property="role" refines="#editor-1" scheme="marc:relators">aft</meta>
+		<meta property="role" refines="#editor-1" scheme="marc:relators">waw</meta>
 		<dc:contributor id="translator-1">Mary Jane Godwin</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Godwin, Mary Jane</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-1">https://en.wikipedia.org/wiki/Mary_Jane_Godwin</meta>
