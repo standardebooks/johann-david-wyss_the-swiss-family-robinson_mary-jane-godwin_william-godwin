@@ -52,7 +52,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/72813</dc:source>
 		<dc:source>https://archive.org/details/family-robinson-crusoe-v1</dc:source>
 		<dc:source>https://archive.org/details/family_robinson_crusoe_v2</dc:source>
-		<meta property="se:word-count">166675</meta>
+		<meta property="se:word-count">166385</meta>
 		<meta property="se:reading-ease.flesch">56.32</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Swiss_Family_Robinson</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/johann-david-wyss_the-swiss-family-robinson_mary-jane-godwin_william-godwin</meta>
