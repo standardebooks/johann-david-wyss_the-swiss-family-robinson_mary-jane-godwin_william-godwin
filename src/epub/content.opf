@@ -74,18 +74,15 @@
 		<meta property="file-as" refines="#translator-1">Godwin, Mary Jane</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-1">https://en.wikipedia.org/wiki/Mary_Jane_Godwin</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/nr92039409</meta>
-		<meta property="display-seq" refines="#translator-1">1</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-2">William Godwin</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Godwin, William</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">https://en.wikipedia.org/wiki/William_Godwin</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/n80024468</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
-		<meta property="display-seq" refines="#translator-2">2</meta>
 		<dc:contributor id="illustrator">J. C. Russell</dc:contributor>
 		<meta property="file-as" refines="#illustrator">Russell, J. C.</meta>
 		<meta property="se:url.authority.nacoaf" refines="#illustrator">http://id.loc.gov/authorities/names/no2017118965</meta>
-		<meta property="display-seq" refines="#illustrator">0</meta>
 		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">Harry Rountree</dc:contributor>
 		<meta property="file-as" refines="#artist">Rountree, Harry</meta>
