@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/johann-david-wyss/the-swiss-family-robinson/mary-jane-godwin_william-godwin</dc:identifier>
 		<dc:date>2025-02-10T20:33:07Z</dc:date>
 		<meta property="dcterms:modified">2025-02-10T20:33:07Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -40,8 +41,8 @@
 		<meta property="term" refines="#subject-2">sh2010114096</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
-		<meta property="se:subject">Children’s</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Children’s</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">A Swiss family is shipwrecked on a remote island in the East Indies.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;A Swiss family of immigrants—a pastor, his wife, and their four sons—are shipwrecked in the East Indies en route to Australia and abandoned by the rest of the crew. Forced to survive with only the supplies and animals they can salvage from the wreck, they learn to make the best of all that providence provides.&lt;/p&gt;
@@ -52,42 +53,44 @@
 		<dc:source>https://www.gutenberg.org/ebooks/72813</dc:source>
 		<dc:source>https://archive.org/details/family-robinson-crusoe-v1</dc:source>
 		<dc:source>https://archive.org/details/family_robinson_crusoe_v2</dc:source>
-		<meta property="se:word-count">166385</meta>
-		<meta property="se:reading-ease.flesch">56.32</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Swiss_Family_Robinson</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/johann-david-wyss_the-swiss-family-robinson_mary-jane-godwin_william-godwin</meta>
+		<meta property="schema:wordCount">166385</meta>
+		<meta property="schema:educationalLevel">56.32</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Swiss_Family_Robinson" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/johann-david-wyss_the-swiss-family-robinson_mary-jane-godwin_william-godwin" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Johann David Wyss</dc:creator>
 		<meta property="file-as" refines="#author">Wyss, Johann David</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Johann_David_Wyss</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n96055186</meta>
+		<link href="https://en.wikipedia.org/wiki/Johann_David_Wyss" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n96055186.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
 		<dc:contributor id="editor-1">Johann Rudolf Wyss</dc:contributor>
 		<meta property="file-as" refines="#editor-1">Wyss, Johann Rudolf</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-1">https://en.wikipedia.org/wiki/Johann_Rudolf_Wyss</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor-1">http://id.loc.gov/authorities/names/n81097789</meta>
+		<link href="https://en.wikipedia.org/wiki/Johann_Rudolf_Wyss" refines="#editor-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n81097789.html" refines="#editor-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">waw</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="translator-1">Mary Jane Godwin</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Godwin, Mary Jane</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-1">https://en.wikipedia.org/wiki/Mary_Jane_Godwin</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/nr92039409</meta>
+		<link href="https://en.wikipedia.org/wiki/Mary_Jane_Godwin" refines="#translator-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr92039409.html" refines="#translator-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-2">William Godwin</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Godwin, William</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">https://en.wikipedia.org/wiki/William_Godwin</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/n80024468</meta>
+		<link href="https://en.wikipedia.org/wiki/William_Godwin" refines="#translator-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80024468.html" refines="#translator-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
 		<dc:contributor id="illustrator">J. C. Russell</dc:contributor>
 		<meta property="file-as" refines="#illustrator">Russell, J. C.</meta>
-		<meta property="se:url.authority.nacoaf" refines="#illustrator">http://id.loc.gov/authorities/names/no2017118965</meta>
+		<link href="https://id.loc.gov/authorities/names/no2017118965.html" refines="#illustrator" rel="schema:sameAs"/>
 		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">Harry Rountree</dc:contributor>
 		<meta property="file-as" refines="#artist">Rountree, Harry</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Harry_Rountree</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n87893329</meta>
+		<link href="https://en.wikipedia.org/wiki/Harry_Rountree" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n87893329.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Lauren Pritchard</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Pritchard, Lauren</meta>
@@ -95,7 +98,7 @@
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">D. Baark</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Baark, D.</meta>
@@ -107,7 +110,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Weijia Cheng</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cheng, Weijia</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://weijiarhymeswith.asia/</meta>
+		<link href="https://weijiarhymeswith.asia/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
