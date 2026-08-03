@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/johann-david-wyss/the-swiss-family-robinson/mary-jane-godwin_william-godwin</dc:identifier>
 		<dc:date>2025-02-10T20:33:07Z</dc:date>
@@ -43,12 +43,12 @@
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="schema:genre">Children’s</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:description id="description">A Swiss family is shipwrecked on a remote island in the East Indies.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A Swiss family is shipwrecked on a remote island in the East Indies.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;A Swiss family of immigrants—a pastor, his wife, and their four sons—are shipwrecked in the East Indies en route to Australia and abandoned by the rest of the crew. Forced to survive with only the supplies and animals they can salvage from the wreck, they learn to make the best of all that providence provides.&lt;/p&gt;
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/johann-david-wyss"&gt;Johann David Wyss&lt;/a&gt; was inspired by &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/daniel-defoe/the-life-and-adventures-of-robinson-crusoe"&gt;Robinson Crusoe&lt;/a&gt;&lt;/i&gt; but wanted a story his own children could learn from. Thus the novel’s various adventures are really lessons on topics as varied as farming, cooperation, animal husbandry, and frugality. The novel became a favorite of the castaway genre, with &lt;a href="https://standardebooks.org/ebooks/jules-verne"&gt;Jules Verne&lt;/a&gt; writing a sequel, &lt;i&gt;The Castaways of the Flag&lt;/i&gt;, in 1900, and various TV and film adaptations appearing in the 20th century.&lt;/p&gt;
 			&lt;p/&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/72813</dc:source>
 		<dc:source>https://archive.org/details/family-robinson-crusoe-v1</dc:source>
