@@ -43,7 +43,7 @@
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="schema:genre">Children’s</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:abstract>A Swiss family is shipwrecked on a remote island in the East Indies.</dc:abstract>
+		<meta property="schema:abstract">A Swiss family is shipwrecked on a remote island in the East Indies.</meta>
 		<dc:description>
 			&lt;p&gt;A Swiss family of immigrants—a pastor, his wife, and their four sons—are shipwrecked in the East Indies en route to Australia and abandoned by the rest of the crew. Forced to survive with only the supplies and animals they can salvage from the wreck, they learn to make the best of all that providence provides.&lt;/p&gt;
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/johann-david-wyss"&gt;Johann David Wyss&lt;/a&gt; was inspired by &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/daniel-defoe/the-life-and-adventures-of-robinson-crusoe"&gt;Robinson Crusoe&lt;/a&gt;&lt;/i&gt; but wanted a story his own children could learn from. Thus the novel’s various adventures are really lessons on topics as varied as farming, cooperation, animal husbandry, and frugality. The novel became a favorite of the castaway genre, with &lt;a href="https://standardebooks.org/ebooks/jules-verne"&gt;Jules Verne&lt;/a&gt; writing a sequel, &lt;i&gt;The Castaways of the Flag&lt;/i&gt;, in 1900, and various TV and film adaptations appearing in the 20th century.&lt;/p&gt;
